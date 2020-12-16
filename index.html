@@ -285,9 +285,14 @@
     
     <div class="post-body" itemprop="articleBody">
           <p>hexo默认主题是landscape，因为太普通了，想换一个，好不容易解决git clone速度慢的问题，屁颠屁颠的配置好_config.yml，打开网页一看，给我出了这么个玩意</p>
-<p>更换butterfly主题后报错：extends includes/layout.pug block content #recent-posts.recent-posts include includes/recent-posts.pug include includes/pagination.pug<br>解决办法：<br>1.在博客目录下打开git bash here，输入命令：npm install –save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive</p>
-<p>2.<br>hexo clean<br>hexo g<br>hexo s<br>然后问题就解决啦</p>
-
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2020/12/16/hexo%E5%AE%89%E8%A3%85%E5%8D%9A%E5%AE%A2%E8%B8%A9%E5%9D%91/#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 

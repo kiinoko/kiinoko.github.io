@@ -23,15 +23,15 @@
     var NexT = window.NexT || {};
     var CONFIG = {"hostname":"example.com","root":"/","images":"/images","scheme":"Gemini","version":"8.1.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}};
   </script>
-<meta name="description" content="hexo默认主题是landscape，因为太普通了，想换一个，好不容易解决git clone速度慢的问题，屁颠屁颠的配置好_config.yml，打开网页一看，给我出了这么个玩意 更换butterfly主题后报错：extends includes&#x2F;layout.pug block content #recent-posts.recent-posts include includes&#x2F;recent-">
+<meta name="description" content="hexo默认主题是landscape，因为太普通了，想换一个，好不容易解决git clone速度慢的问题，屁颠屁颠的配置好_config.yml，打开网页一看，给我出了这么个玩意">
 <meta property="og:type" content="article">
 <meta property="og:title" content="hexo安装博客踩坑-Hexo更换主题">
 <meta property="og:url" content="http://example.com/2020/12/16/hexo%E5%AE%89%E8%A3%85%E5%8D%9A%E5%AE%A2%E8%B8%A9%E5%9D%91/index.html">
 <meta property="og:site_name" content="泠鸢の博客">
-<meta property="og:description" content="hexo默认主题是landscape，因为太普通了，想换一个，好不容易解决git clone速度慢的问题，屁颠屁颠的配置好_config.yml，打开网页一看，给我出了这么个玩意 更换butterfly主题后报错：extends includes&#x2F;layout.pug block content #recent-posts.recent-posts include includes&#x2F;recent-">
+<meta property="og:description" content="hexo默认主题是landscape，因为太普通了，想换一个，好不容易解决git clone速度慢的问题，屁颠屁颠的配置好_config.yml，打开网页一看，给我出了这么个玩意">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2020-12-16T01:05:11.000Z">
-<meta property="article:modified_time" content="2020-12-16T01:11:52.023Z">
+<meta property="article:modified_time" content="2020-12-16T01:21:00.162Z">
 <meta property="article:author" content="kiinoko">
 <meta property="article:tag" content="Hexo">
 <meta name="twitter:card" content="summary">
@@ -296,6 +296,7 @@
     
     <div class="post-body" itemprop="articleBody">
         <p>hexo默认主题是landscape，因为太普通了，想换一个，好不容易解决git clone速度慢的问题，屁颠屁颠的配置好_config.yml，打开网页一看，给我出了这么个玩意</p>
+<a id="more"></a>
 <p>更换butterfly主题后报错：extends includes/layout.pug block content #recent-posts.recent-posts include includes/recent-posts.pug include includes/pagination.pug<br>解决办法：<br>1.在博客目录下打开git bash here，输入命令：npm install –save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive</p>
 <p>2.<br>hexo clean<br>hexo g<br>hexo s<br>然后问题就解决啦</p>
 
